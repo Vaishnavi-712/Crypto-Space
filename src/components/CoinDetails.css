@@ -1,0 +1,85 @@
+
+
+.coin-detail{
+    padding-bottom: 80px;
+    margin-bottom: 30px;
+    /* background-color: black; */
+    background-image: url('../CoinDetailbg.jpg');
+    padding-left: 120px;
+    padding-top: 80px;
+  }
+
+
+  
+  .time{
+      font-weight: 300;
+  }
+  
+  .coin-image img{
+      margin-top: 50px;
+  }
+  
+  .coin-name{
+      font-weight: bold;
+      font-size: 27px;
+      margin-top: 10px;
+      
+  }
+  .coin-price{
+      font-weight: bold;
+      font-size: 22px;
+      margin-top: 20px;
+  }
+  .coin-profit{
+      margin-top: 10px;
+      margin-left: 5px;
+  }
+  
+  .market-rank{
+      font-weight: 300;
+      font-size: 27px;
+      margin-top: 20px;
+      margin-left: 0px;
+  }
+  
+  .coin-desc p{
+      margin-top: 15px;
+      font-size: 0.8rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 1rem;
+      margin-right: 1rem;
+      background-color: #000000;
+  }
+  
+  .coin-desc {
+      width: 15rem;
+  }
+  .btn button{
+      height: 2rem;
+      background-color: #fca311;
+      border: none;
+      width: 5rem;
+      border-radius: 10px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      margin-left: 10px;
+  }
+  .market-rank{
+    padding: 1rem;
+  }
+ 
+  .coin-detail{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  @media only screen and (max-width: 600px) {
+
+     .coin-detail{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+     }
+  }

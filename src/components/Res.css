@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
+.search-bar input{
+    height: 2rem;
+    width: 15rem;
+    position: fixed;
+    top: 2%;
+    left: 35%;
+    padding-left: 10px;
+    /* background: transparent; */
+    font-family: 'Oswald';
+    font-weight: 400;
+    
+}
+.Coins-heading{
+    background-image: url('../Pricesimage.jpg');
+    padding-top: 150px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald';
+    font-weight: 300;
+}
+.CoinsContainer{
+    /* margin-top: 90px; */
+    padding-top: 0.05px;
+    background-color: #14213d;
+}
+.btns{
+    background-color:#14213d;
+    display: flex;
+    justify-content: center;
+}
+
+.btns button{
+    height: 2rem;
+    background-color: #fca311;
+    border: none;
+    margin-left: 19px;
+    width: 5rem;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+ }
+
+button{
+    font-family: 'Oswald';
+    font-weight: 400;
+
+}
+
+@media only screen and (max-width: 600px) {
+.search-bar input{
+    
+    position: fixed;
+    top: 10%;
+    left: 7%;
+}
+.btns{
+    margin-left: 10px;
+}
+}

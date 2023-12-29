@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
+.ex-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 20px;
+    /* font-weight: bold; */
+    background: transparent;
+}
+
+.Exchanges-heading{
+    background-image: url('../cryptoimage.jpg');
+    padding-top: 150px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald';
+    font-weight: 300;
+}
+p{
+    font-size: 1.5rem;
+    padding:1.5rem;
+    background-color: black;
+    
+}
+.name{
+    width: 7rem;
+}
+.price{
+    width: 7rem;
+}
+.rank{
+    width: 7rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .image img{
+    height: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+    .name{
+       font-size: 15px;
+       width: 10rem;
+       margin-left: 40px;
+    margin-right: 20px;
+    }
+    .price{
+      font-size: 15px;
+      width:  10rem;
+      margin-left: 40px;
+      margin-right: 20px;
+    }
+    .rank{
+     font-size: 15px;
+     margin-left: 40px;
+    margin-right: 20px;
+    }
+    .ex-cards{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+
+}
