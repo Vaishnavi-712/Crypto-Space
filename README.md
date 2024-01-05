@@ -2,13 +2,13 @@
 
 *Overview:*
 
-CryptoSphere is a cutting-edge Cryptocurrency Tracker Project that provides real-time data on cryptocurrency exchanges and prices. With a sleek and intuitive interface, users can stay informed about the dynamic cryptocurrency market with ease.
+CryptoSphere is a Cryptocurrency Tracker Project that provides real-time data on cryptocurrency exchanges and prices. With a sleek and intuitive interface, users can stay informed about the dynamic cryptocurrency market with ease.
 
 *Key Features:*
 
 1. **Real-Time Data:** Utilizing API integration, CryptoSphere fetches and displays up-to-the-second information on various cryptocurrencies, ensuring users have the latest market insights.
 
-2. **Historical Price Analysis:** Users can analyze the historical performance of selected coins over the past month, day, or year. This feature empowers them to make informed decisions based on the coin's price trends.
+2. **Past Price Analysis:** Users can analyze the historical performance of selected coins over the past month, day, or year. This feature empowers them to make informed decisions based on the coin's price trends.
 
 *Technology Stack:*
 
@@ -20,6 +20,4 @@ CryptoSphere is a cutting-edge Cryptocurrency Tracker Project that provides real
 
 - **HTML:** The backbone of the project, HTML is used to structure the content and ensure compatibility across different browsers.
 
-*Conclusion:*
-
-CryptoSphere stands at the intersection of technology and finance, providing users with a comprehensive tool to navigate the cryptocurrency market. With real-time updates, historical analysis, and a robust tech stack featuring React JS, CSS, Chart JS, and HTML, CryptoSphere offers a seamless and informative experience for cryptocurrency enthusiasts and investors alike.
+CryptoSphere is a tool to navigate the cryptocurrency market. With real-time updates, past prices and exchanges, CryptoSphere offers a seamless and informative experience for cryptocurrency enthusiasts and investors alike.
